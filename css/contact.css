@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+  margin: 0px 0px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-container {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background: rgba(255,255,255,0);
+  z-index: 1000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar-container.solid {
+  position: fixed;
+  background: rgba(255,255,255,1);
+  transition: .5s ease;
+}
+
+.navbar {
+  width: 100vw;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding: 7px 30px;
+  text-decoration: none;
+  color: #919EAE;
+  font-size: .8em;
+  font-family: 'Nunito', sans-serif;
+  background: rgba(255,255,255,0);
+  border-radius: 10px;
+  transition-duration: .25s;
+}
+
+li a:hover {
+  color: #0f0f0f;
+  background: rgba(255,255,255,.4);
+}
+
+
+
+/* Containers */
+.hero-container {
+  background: url(/img/Royce.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  margin-top: calc(2vh + 60px);
+  top: 20%;
+}
+
+.contact-container {
+  background-color: #ffF;
+  width: 60vw;
+  height: 60vh;
+  margin: auto;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.contact-wrapper {
+  width: 48%;
+  height: 100%;
+}
+
+.unit-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.h3-wrapper {
+  border-style: none;
+  border-radius: 24px;
+  width: 70%;
+  padding: 4px 10px;
+  position: relative;
+  text-align: center;
+  background: rgba(0,112,207,.8);
+  margin: 0 auto 3% auto;
+}
+
+.item-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+input, #message {
+  border: .5px solid #919EAE;
+  width: 100%;
+  height: 2.5em;
+  border-radius: 10px;
+  padding-left: 4%;
+  outline: none;
+  color: #919EAE;
+  font-family: 'Nunito', sans-serif;
+  transition: .25s ease;
+}
+
+input:focus, #message:focus {
+  box-shadow: 0px 5px 10px rgba(0,0,0,.4);
+  border: none;
+}
+
+#message {
+  height: 7em;
+  width: 100%;
+  resize: none;
+  padding-top: 4%;
+}
+
+::placeholder {
+  color: #919EAE;
+}
+
+
+/* Fonts */
+
+.name, .position {
+  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #0070BF;
+  font-weight: 200;
+}
+
+.name {
+  font-size: 1.2em;
+}
+
+.position {
+  font-style: italic;
+  color: #919EAE;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #0070BF;
+  font-weight: 400;
+
+}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #0070BF;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1em;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #919EAE;
+  text-align: center;
+
+  font-weight: 200;
+  font-size: 1em;
+}
+
+hr {
+  border: 1px solid #fff;
+  background-color: #fff;
+  width: 70px;
+  height: -5px;
+  position: relative;
+  margin: 8px auto 10px auto;
+  border-radius: 5px;
+
+}
+
+#email {
+  width: 15px;
+  height: auto;
+
+}
+
+/* Button */
+
+.button {
+  width: 100%;
+  background: rgba(0,112,207,.8);
+  border-style: none;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.4);
+  text-decoration: none;
+  transition-duration: .25s;
+  color: #fff;
+  padding: 0;
+}
+
+.button:hover {
+  box-shadow: none;
+}

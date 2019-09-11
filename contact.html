@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Join Us | UConsulting</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="initial-scale=1, user-scalable=no, width=device-width">
+    <script
+  src="http://code.jquery.com/jquery-3.4.1.slim.js"
+  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+  crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </head>
+
+
+  <body>
+<!--NavBar-->
+    <section class="navbar-container">
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown-button">
+            <a id="ddlink" href="accelerator.html">For Students</a>
+            <div class="dropdown">
+              <div class="dropdown-wrap">
+                <a href="accelerator.html">Accelerator</a>
+                <a href="careers.html">Career Development</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="forclients.html">For Clients</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://giving.ucla.edu/campaign/donate.aspx?Fund=64484O&AutoFN=Y">Donate</a></li>
+          <li><a href="join.html" style="color: #0070BF">Join Us</a></li>
+        </ul>
+      </div>
+    </section>
+
+<!-- Home Hero (full-screen, above the fold)-->
+    <section class="hero-container">
+      <div class="title-container">
+        <h1>Get in Touch</h1>
+        <h2>Have a question? Would you like to do business with us? Here's how you can reach us...</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-wrapper">
+          <div class="item-wrapper">
+            <div class="unit-wrapper">
+              <div class="h3-wrapper">
+                <h3>For General Inquiries</h3>
+              </div>
+              <div class="email-line">
+                <p>uconsulting@gmail.com</p>
+              </div>
+            </div>
+            <div class="unit-wrapper">
+              <div class="h3-wrapper">
+                <h3>For Recruitment Questions</h3>
+              </div>
+              <div class="name">Natasha Nainani</div>
+              <div class="position">Director of Recruitment</div>
+              <p>uconsulting@gmail.com</p>
+            </div>
+            <div class="unit-wrapper">
+              <div class="h3-wrapper">
+                <h3>For Business Inquiries</h3>
+              </div>
+              <div class="name">Amanda Elliot</div>
+              <div class="position">Director of Client Acquisition</div>
+              <p>uconsulting@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-wrapper white">
+          <form action="/contact.php" method="post" id="contact-form">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" usrform="contact-form" placeholder="Your message"   id="message" cols="30" rows="7"></textarea>
+            <input type="submit" class="button" value="Submit">
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+
+  </body>
+</html>
