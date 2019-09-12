@@ -64,7 +64,7 @@ li a:hover {
 
 /* Containers */
 .hero-container {
-  background: url(../img/Royce.jpg) no-repeat center center fixed;
+  background: url(../img/royce.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
