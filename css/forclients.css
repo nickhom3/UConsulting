@@ -147,7 +147,7 @@ body {
   left: 0;
 
   width: 100vw;
-  background: url(/img/royce.jpg) no-repeat center center fixed;
+  background: url(../img/royce.jpg) no-repeat center center fixed;
   margin-bottom: 30px;
 }
 
