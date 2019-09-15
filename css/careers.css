@@ -8,7 +8,7 @@ body {
 }
 
 .hero-container {
-  background: url(/img/join.jpg) no-repeat center center fixed;
+  background: url(../img/join.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -74,7 +74,8 @@ body {
   width: 60vw;
   max-width: 800px;
   margin: 0 auto;
-  padding: 30px 0 30px 0;
+  padding: 0 0 30px 0;
+  margin-bottom: 30px;
 }
 
 .content {
